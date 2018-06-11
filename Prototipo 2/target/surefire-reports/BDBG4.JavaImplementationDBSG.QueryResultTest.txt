@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: BDBG4.JavaImplementationDBSG.QueryResultTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+BDBG4.JavaImplementationDBSG.QueryResultTest.testQueryResultCompound()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at BDBG4.JavaImplementationDBSG.QueryTemplate.ComputeQuery(QueryTemplate.java:28)
+	at BDBG4.JavaImplementationDBSG.QueryTemplate.ControlTime(QueryTemplate.java:20)
+	at BDBG4.JavaImplementationDBSG.QueryResultTest.testQueryResultCompound(QueryResultTest.java:25)
+
+BDBG4.JavaImplementationDBSG.QueryResultTest.testQueryResultStructures()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at BDBG4.JavaImplementationDBSG.QueryTemplate.ComputeQuery(QueryTemplate.java:28)
+	at BDBG4.JavaImplementationDBSG.QueryTemplate.ControlTime(QueryTemplate.java:20)
+	at BDBG4.JavaImplementationDBSG.QueryResultTest.testQueryResultStructures(QueryResultTest.java:33)
+
